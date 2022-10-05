@@ -1,0 +1,45 @@
+.topbar {
+    background-color: black;
+    width: 100vw;
+    position: relative;
+    height: 10vh;
+    min-height: 50px;
+    z-index: 10;
+    overflow: hidden;
+    
+}
+
+.topbar .icon { 
+    width: auto;
+    height: 10vh;
+    min-height: 50px;
+    display: flex;
+    position: absolute;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transform: translateX(5px);
+}
+
+.topbar .icon:hover, .icon:active { opacity: 0.5; }
+
+.topbar .links {
+    float: right;
+    position: relative;
+    height: 10vh;
+    min-height: 50px;
+    line-height: 10vh;
+    transform: translate(-10px, 10px);
+}
+
+.topbar a {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin-right: 5px;
+}
+.topbar a:visited, a:link {text-decoration: none; color: black}
+.topbar a:hover, .topbar a:active { text-decoration: none; color:gray }
+
+
+.topbar li a {
+    padding: 5px;
+}

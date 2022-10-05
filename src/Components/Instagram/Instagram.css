@@ -1,0 +1,40 @@
+.lightwidget-widget {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.igGrid
+{     
+    position: relative;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.igGrid .igGridFrame
+{
+    position: absolute;
+    margin: 10vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.InstagramBg {
+    height: 90vh;
+    background-size: 100% auto;
+}
+
+.InstagramBg h3 {
+    color: white;
+    transform: translateY(5vh);
+}

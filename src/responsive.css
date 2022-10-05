@@ -1,0 +1,131 @@
+@media only screen and (max-width: 414px) {
+    .homebg {
+        height: 30vh !important;
+    }
+
+    .logo {
+        width: 80%;
+        transform: translateY(-5vh);
+    }
+
+    .arrow-down {
+        visibility: hidden;
+    }
+
+    .musicbox {
+        left: 0%;
+    }
+
+    .parallaxBg, .InstagramBg {
+        height: 60vh;   
+    }
+
+    .content {
+        transform: translateY(-27vh);
+    }
+
+    .bio {
+        font-size: 6vw;
+    }
+
+    .bio p {
+        font-size: 4vw;
+        margin: 10px;
+    }
+
+    .video-container, .video-container iframe, 
+    .video-container object, .video-container embed {
+        width: 60vw;
+        height: 20vh;
+    }
+
+    .lightwidget-widget {
+        height: 80vw;
+        width: 80vw;
+        transform: translateY(-20vh);
+    }
+
+    .InstagramBg {
+        height: 60vh !important;
+    }
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 810px) {
+    .homebg {
+        height: 50vh !important;
+    }
+
+    .logo {
+        width: 80%;
+        transform: translateY(-5vh);
+    }
+
+    .arrow-down {
+        transform: translateY(-40vh);
+    }
+
+    .musicbox {
+        left: 0%;
+    }
+
+    .parallaxBg, .InstagramBg {
+        height: 60vh;   
+    }
+
+    .content {
+        transform: translateY(-27vh);
+    }
+
+    .bio {
+        font-size: 3vw;
+    }
+
+    .bio p {
+        font-size: 2vw;
+    }
+
+    .video-container, .video-container iframe, 
+    .video-container object, .video-container embed {
+        width: 72vw;
+        height: 30vh;
+    }
+
+    .lightwidget-widget {
+        height: 80vw;
+        width: 80vw;
+        transform: translateY(-10vh);
+    }
+
+    .InstagramBg {
+        height: 80vh !important;
+    }
+
+}
+
+@media only screen and (min-width: 811px) {
+    .homebg {
+        height: 100vh;
+    }
+
+    .logo {
+        width: 33%;
+    }
+
+    .arrow-down {
+        transform: translateY(-20vh);
+    }
+
+    .bio {
+        font-size: 3vw;
+    }
+
+    .bio p {
+        font-size: 2vw;
+    }
+
+    .lightwidget-widget {
+        height: 40vw;
+        width: 40vw;
+    }
+}

@@ -1,0 +1,57 @@
+.content {
+    max-width: 80vh;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.videos {
+    flex: 1; 
+    overflow: hidden;
+    justify-content: center;
+}
+
+.videos h3 {
+    color: white;
+}
+
+.video-container { 
+    position: relative;
+    padding-bottom: 30px;
+    margin: 10vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    flex: 1; 
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+.video-container iframe, 
+.video-container object, 
+.video-container embed {
+    position: absolute;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+span {
+    font-weight: 500;
+}
+
+span p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.parallaxBg h3 {
+    color: white;
+    transform: translateY(5vh);
+}

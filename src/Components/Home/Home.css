@@ -1,0 +1,116 @@
+.homebg {
+    background-color: black;
+    background-size: 100% auto;
+    position: relative;
+    opacity: 0.6;
+    height: 90vh;
+}
+
+.logodiv {
+    width: auto;
+    margin: auto;
+    position: absolute;
+}
+
+.logo {
+    position: relative;
+    opacity: 1;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-filter: invert(1) 
+    drop-shadow(1px 1px 0 black) 
+    drop-shadow(-1px -1px 0 white);
+    filter: invert(1)
+    drop-shadow(1px 1px 0 black) 
+    drop-shadow(-1px -1px 0 white); 
+}
+
+.arrow-down{
+    z-index: 100;
+    display: block;
+    width:60px;
+    height:40px;
+    margin:0 auto;
+    margin-left: -16px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    animation: arrow 3s 1s infinite ease-out alternate;
+    -webkit-animation: arrow 3s 1s infinite ease-out alternate;
+    -webkit-filter: invert(1)
+    drop-shadow(1px 1px 0 black) 
+    drop-shadow(-1px -1px 0 white);
+    filter: invert(1)
+    drop-shadow(1px 1px 0 black) 
+    drop-shadow(-1px -1px 0 white);
+}
+
+.arrow-down:hover{
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+.left{
+    position:absolute;
+    height:10px;
+    width:40px;
+    background:black;
+    transform:rotate(240deg);
+    -webkit-transform:rotate(240deg);
+    top:10px;
+    left:10px;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    transform-origin: 5px 50%;  
+    -webkit-transform-origin:5px 50%;
+    animation: leftArrow 3s 1s infinite ease-out alternate;
+    -webkit-animation: leftArrow 3s 1s infinite ease-out alternate;
+}
+
+.right{
+    position:absolute;
+    height:10px;
+    width:40px;
+    background:black;
+    transform:rotate(-60deg);
+    -webkit-transform:rotate(-60deg);
+    top:10px;
+    left:10px;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    transform-origin:5px 50%;
+    -webkit-transform-origin: 5px 50%;
+    animation: rightArrow 3s 1s infinite ease-out alternate;
+    -webkit-animation: rightArrow s 1s infinite ease-out alternate;
+}
+
+@keyframes arrow{
+    0% {
+        bottom:0px;
+    }
+    100%{
+        bottom:20px;
+    }
+}
+
+
+@keyframes leftArrow{
+    0% {
+    }
+    100%{
+        -webkit-transform:rotate(225deg);
+    }
+}
+
+@keyframes rightArrow{
+    0% {
+    }
+    100%{
+        -webkit-transform:rotate(-45deg);
+    }
+}

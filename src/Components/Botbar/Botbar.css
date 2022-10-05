@@ -1,0 +1,45 @@
+.botbar {
+    background-color: black;
+    width: 100vw;
+    position: relative;
+    height: 10vh;
+    min-height: 50px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.botbar .icon { 
+    width: auto;
+    height: 10vh;
+    min-height: 50px;
+    display: flex;
+    position: absolute;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transform: translateX(5px);
+}
+
+.botbar .icon:hover, .icon:active { opacity: 0.5; }
+
+.botbar .links {
+    float: right;
+    position: relative;
+    height: 10vh;
+    min-height: 50px;
+    line-height: 10vh;
+    transform: translate(-10px, 10px);
+}
+
+.botbar a {
+    color: black;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin-right: 5px;
+}
+.botbar a:visited {text-decoration: none; color: black}
+.botbar a:hover, .botbar a:active { text-decoration: none; color:gray }
+
+
+.botbar li a {
+    padding: 5px;
+}

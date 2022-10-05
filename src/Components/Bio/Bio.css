@@ -1,0 +1,14 @@
+.parallaxBg {
+    background-size: 100% auto;
+}
+
+.parallaxBg h3 {
+    color: white;
+    transform: translateY(5vh);
+}
+
+.bio {
+    width: 80% auto;
+    color: white;
+    font-family: 'Courier New'
+}
