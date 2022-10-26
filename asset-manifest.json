@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/tuckermeltdown/static/css/main.3a932edf.css",
-    "main.js": "/tuckermeltdown/static/js/main.09be4fea.js",
+    "main.js": "/tuckermeltdown/static/js/main.705d1aee.js",
     "static/media/Home.jpg": "/tuckermeltdown/static/media/Home.32481a694521f22a67b8.jpg",
-    "static/media/font logo.png": "/tuckermeltdown/static/media/font logo.9a11d06a840e1364379a.png",
+    "static/media/logo bot.png": "/tuckermeltdown/static/media/logo bot.9a11d06a840e1364379a.png",
+    "static/media/logo home.png": "/tuckermeltdown/static/media/logo home.9a11d06a840e1364379a.png",
+    "static/media/logo top.png": "/tuckermeltdown/static/media/logo top.9a11d06a840e1364379a.png",
     "static/media/Instagram.jpg": "/tuckermeltdown/static/media/Instagram.02f48e2c52061e6061cc.jpg",
     "static/media/Bio.jpg": "/tuckermeltdown/static/media/Bio.9ee72b39f9133871b1bd.jpg",
     "index.html": "/tuckermeltdown/index.html",
     "main.3a932edf.css.map": "/tuckermeltdown/static/css/main.3a932edf.css.map",
-    "main.09be4fea.js.map": "/tuckermeltdown/static/js/main.09be4fea.js.map"
+    "main.705d1aee.js.map": "/tuckermeltdown/static/js/main.705d1aee.js.map"
   },
   "entrypoints": [
     "static/css/main.3a932edf.css",
-    "static/js/main.09be4fea.js"
+    "static/js/main.705d1aee.js"
   ]
 }
