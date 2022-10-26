@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tuckermeltdown/static/css/main.3a932edf.css",
-    "main.js": "/tuckermeltdown/static/js/main.7614dbc6.js",
-    "static/media/1.jpg": "/tuckermeltdown/static/media/1.32481a694521f22a67b8.jpg",
-    "static/media/font logo.png": "/tuckermeltdown/static/media/font logo.9a11d06a840e1364379a.png",
-    "static/media/3.jpg": "/tuckermeltdown/static/media/3.02f48e2c52061e6061cc.jpg",
-    "static/media/2.jpg": "/tuckermeltdown/static/media/2.9ee72b39f9133871b1bd.jpg",
-    "index.html": "/tuckermeltdown/index.html",
-    "main.3a932edf.css.map": "/tuckermeltdown/static/css/main.3a932edf.css.map",
-    "main.7614dbc6.js.map": "/tuckermeltdown/static/js/main.7614dbc6.js.map"
+    "main.css": "/static/css/main.3a932edf.css",
+    "main.js": "/static/js/main.7614dbc6.js",
+    "static/media/1.jpg": "/static/media/1.32481a694521f22a67b8.jpg",
+    "static/media/font logo.png": "/static/media/font logo.9a11d06a840e1364379a.png",
+    "static/media/3.jpg": "/static/media/3.02f48e2c52061e6061cc.jpg",
+    "static/media/2.jpg": "/static/media/2.9ee72b39f9133871b1bd.jpg",
+    "index.html": "/index.html",
+    "main.3a932edf.css.map": "/static/css/main.3a932edf.css.map",
+    "main.7614dbc6.js.map": "/static/js/main.7614dbc6.js.map"
   },
   "entrypoints": [
     "static/css/main.3a932edf.css",
