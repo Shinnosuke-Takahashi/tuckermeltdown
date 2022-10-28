@@ -1,5 +1,5 @@
 import "./Topbar.css"
-import logo from '../../Assets/logo/font logo.png'
+import logo from './logo top.png'
 import {FaYoutube, FaSpotify, FaInstagram, FaFacebook, FaApple} from 'react-icons/fa'
 import anime from 'animejs/lib/anime.es.js';
 import { useEffect } from 'react';

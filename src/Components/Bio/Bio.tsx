@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import _ImageTwo from '../../Assets/background/2.jpg'
+import _ImageTwo from './Bio.jpg'
 import './Bio.css'
 
 const Bio = () => (
