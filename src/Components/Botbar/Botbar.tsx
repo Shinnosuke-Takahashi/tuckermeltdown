@@ -1,5 +1,5 @@
 import "./Botbar.css"
-import logo from '../../Assets/logo/font logo.png'
+import logo from './logo bot.png'
 import {FaYoutube, FaSpotify, FaInstagram, FaFacebook, FaApple} from 'react-icons/fa'
 
 const botbar = () => {

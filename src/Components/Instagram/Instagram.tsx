@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import _ImageThree from '../../Assets/background/3.jpg'
+import _ImageThree from './Instagram.jpg'
 import './Instagram.css'
 
 const Instagram = () => (
@@ -8,7 +8,7 @@ const Instagram = () => (
         <div className="igGrid">
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
         <iframe src="https://cdn.lightwidget.com/widgets/c80817fbe73c532facdb01467d68e01e.html" 
-        scrolling="no" allowtransparency="true" 
+        scrolling="no" allowTransparency="true" 
         class="lightwidget-widget"></iframe>
         </div>
     </Parallax>

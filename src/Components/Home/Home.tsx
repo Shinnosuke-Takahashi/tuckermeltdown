@@ -1,6 +1,6 @@
 import { Parallax} from 'react-parallax';
-import _ImageOne from '../../Assets/background/1.jpg'
-import logo from '../../Assets/logo/font logo.png'
+import _ImageOne from './Home.jpg'
+import logo from './logo home.png'
 import './Home.css'
 import anime from 'animejs/lib/anime.es.js';
 import { useEffect } from 'react';
@@ -36,9 +36,9 @@ const Home = () => {
         <img className='logo' src={logo} alt='logo'/>
     </div>
     
-    <div class="arrow-down">
-        <div class="left"/>
-        <div class="right"/>
+    <div className="arrow-down">
+        <div className="left"/>
+        <div className="right"/>
     </div>
 
     <Parallax 
